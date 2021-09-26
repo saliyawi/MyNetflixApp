@@ -9,12 +9,12 @@ import 'firebase/compat/auth';
 // Need a config here 
 
 const config = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+    apiKey: "AIzaSyD_j8FbQ-gf54aa2wfX-0yEiErx6ei3oZw",
+    authDomain: "mynetflix-testproject.firebaseapp.com",
+    projectId: "mynetflix-testproject",
+    storageBucket: "mynetflix-testproject.appspot.com",
+    messagingSenderId: "943696515161",
+    appId: "1:943696515161:web:966fb55c2c2f4068912148"
 };
 
 const firebase = Firebase.initializeApp(config);
@@ -22,4 +22,3 @@ const firebase = Firebase.initializeApp(config);
 // seedDatabase(firebase);
 
 export {firebase};
-
